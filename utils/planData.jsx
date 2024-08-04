@@ -23,8 +23,8 @@ export default[
     },
     {
         id:1,
-        name:'3 Months Plan',
-        cost:99,
+        name:'Monthly',
+        cost:29,
         paymentLink:'https://buy.stripe.com/test_6oEdUGemA4FRcpycMM',
         offering:[
             {
