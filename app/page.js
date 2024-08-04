@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-8 bg-white z-50 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <section id="how-it-works" className="py-8 bg-white z-50 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h2 className="font-bold text-3xl">How it Works?</h2>
         <h2 className="text-md text-gray-500">Give mock interviews in just 3 simple steps</h2>
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -64,9 +64,9 @@ export default function Home() {
           >
             <AtomIcon className='h-8 w-8' />
             <h2 className="mt-4 text-xl font-bold text-black">Sign In and Go to Dashboard</h2>
-<p className="mt-1 text-sm text-gray-600">
-  Access your dashboard by signing in to view and manage your interviews, track progress, and more.
-</p>
+            <p className="mt-1 text-sm text-gray-600">
+              Access your dashboard by signing in to view and manage your interviews, track progress, and more.
+            </p>
           </a>
           <a
             className="block rounded-xl border bg-white border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
@@ -74,9 +74,9 @@ export default function Home() {
           >
             <Edit className='h-8 w-8' />
             <h2 className="mt-4 text-xl font-bold text-black">Add New Interview</h2>
-  <p className="mt-1 text-sm text-gray-600">
-    Enter the details of the job position, description, and experience required to generate customized interview questions.
-  </p>
+            <p className="mt-1 text-sm text-gray-600">
+              Enter the details of the job position, description, and experience required to generate customized interview questions.
+            </p>
           </a>
           <a
             className="block rounded-xl border bg-white border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
@@ -84,10 +84,9 @@ export default function Home() {
           >
             <Share2 className='h-8 w-8' />
             <h2 className="mt-4 text-xl font-bold text-black">Check Your Responses</h2>
-  <p className="mt-1 text-sm text-gray-600">
-    Submit the interview and review the AI-generated feedback. You can also see the rating given, view the correct answers, and identify areas for improvement.
-  </p>
-
+            <p className="mt-1 text-sm text-gray-600">
+              Submit the interview and review the AI-generated feedback. You can also see the rating given, view the correct answers, and identify areas for improvement.
+            </p>
           </a>
         </div>
         <a
